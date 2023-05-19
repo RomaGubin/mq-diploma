@@ -97,7 +97,7 @@ li {
   margin-top: 8px;
   border: none;
   background-color: #f4f7f6;
-  background-image: url("/svg/form-arrows.svg");
+  background-image: url("../svg/form-arrows.svg");
   background-repeat: no-repeat;
   background-position: right 10px center;
   background-size: 10px;
@@ -121,7 +121,7 @@ li {
   margin-right: 8px;
   width: 18px;
   height: 18px;
-  background-image: url("/svg/form-empty-circle.svg");
+  background-image: url("../svg/form-empty-circle.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 18px;
@@ -151,7 +151,7 @@ li {
 }
 .header {
   position: relative;
-  background-image: url("/img/banner-bg.jpg");
+  background-image: url("../img/banner-bg.jpg");
   background-repeat: no-repeat;
   padding-bottom: 127px;
   padding-top: 28px;
@@ -250,16 +250,16 @@ li {
   opacity: 0.6;
 }
 .garden {
-  background-image: url("/img/trend1.jpg");
+  background-image: url("../img/trend1.jpg");
 }
 .cheeses {
-  background-image: url("/img/trend2.jpg");
+  background-image: url("../img/trend2.jpg");
 }
 .mountains {
-  background-image: url("/img/trend3.jpg");
+  background-image: url("../img/trend3.jpg");
 }
 .lemons {
-  background-image: url("/img/trend4.jpg");
+  background-image: url("../img/trend4.jpg");
 }
 .trends {
   margin-left: calc(0.72% / 3);
@@ -444,7 +444,7 @@ li {
   height: 48px;
   width: 48px;
   padding: 15px;
-  background-image: url("/svg/search.svg");
+  background-image: url("../svg/search.svg");
   background-repeat: no-repeat;
   background-size: 18px;
   background-position: center center;
@@ -574,13 +574,13 @@ li {
   padding: 7%;
 }
 .pillows {
-  background-image: url("/img/shop-item-desk1.jpg");
+  background-image: url("../img/shop-item-desk1.jpg");
 }
 .hare {
-  background-image: url("/img/shop-item-desk2.jpg");
+  background-image: url("../img/shop-item-desk2.jpg");
 }
 .decor {
-  background-image: url("/img/shop-item-desk3.jpg");
+  background-image: url("../img/shop-item-desk3.jpg");
 }
 .product {
   margin-left: calc(10% / 2);
@@ -639,13 +639,13 @@ li {
   margin-right: 13px;
 }
 .dribbble-link {
-  background-image: url("/svg/001-dribbble.svg");
+  background-image: url("../svg/001-dribbble.svg");
 }
 .pinterest-link {
-  background-image: url("/svg/002-pinterest.svg");
+  background-image: url("../svg/002-pinterest.svg");
 }
 .tumblr-link {
-  background-image: url("/svg/003-tumblr.svg");
+  background-image: url("../svg/003-tumblr.svg");
 }
 .span-text-link {
   position: absolute;
@@ -704,7 +704,7 @@ li {
     font-size: 18px;
   }
   .header {
-    background-image: url("/img/banner-bg-tablet.jpg");
+    background-image: url("../img/banner-bg-tablet.jpg");
   }
   .logo-link {
     width: 156px;
@@ -760,13 +760,13 @@ li {
     font-size: 13px;
   }
   .pillows {
-    background-image: url("/img/shop-item-tablet1.jpg");
+    background-image: url("../img/shop-item-tablet1.jpg");
   }
   .hare {
-    background-image: url("/img/shop-item-tablet2.jpg");
+    background-image: url("../img/shop-item-tablet2.jpg");
   }
   .decor {
-    background-image: url("/img/shop-item-tablet3.jpg");
+    background-image: url("../img/shop-item-tablet3.jpg");
   }
 }
 @media (max-width: 640px) {
@@ -774,7 +774,7 @@ li {
     font-size: 16px;
   }
   .header {
-    background-image: url("/img/banner-mobile.jpg");
+    background-image: url("../img/banner-mobile.jpg");
   }
   .header_container {
     min-width: 300px;
@@ -896,13 +896,13 @@ li {
     margin-bottom: 8px;
   }
   .pillows {
-    background-image: url("/img/shop-item-mobile1.jpg");
+    background-image: url("../img/shop-item-mobile1.jpg");
   }
   .hare {
-    background-image: url("/img/shop-item-mobile2.jpg");
+    background-image: url("../img/shop-item-mobile2.jpg");
   }
   .decor {
-    background-image: url("/img/shop-item-mobile3.jpg");
+    background-image: url("../img/shop-item-mobile3.jpg");
   }
 }
 @media (max-width: 640px) and (orientation: landscape) {
