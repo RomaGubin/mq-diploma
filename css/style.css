@@ -84,7 +84,7 @@ li {
   line-height: normal;
   padding-top: 28px;
 }
-.form:nth-child(n + 2) {
+.form {
   margin-top: 25px;
 }
 .site_entrance {
@@ -127,7 +127,7 @@ li {
   background-size: 18px;
 }
 .radio:checked + .radio-group-text::before {
-  background-image: url("/svg/form-circle.svg");
+  background-image: url("../svg/form-circle.svg");
 }
 .radio-yes {
   padding-right: 10px;
@@ -230,9 +230,9 @@ li {
 }
 .now-trend {
   display: flex;
-  align-items: flex-end;
+  align-self: flex-end;
   justify-content: center;
-  width: calc((100% - 0.72%) / 4);
+  width: calc((100% - 1vw) / 4);
   height: 312px;
   position: relative;
   background-repeat: no-repeat;
@@ -261,8 +261,8 @@ li {
 .lemons {
   background-image: url("../img/trend4.jpg");
 }
-.trends {
-  margin-left: calc(0.72% / 3);
+.cheeses, .mountains, .lemons {
+  margin-left: calc(1vw / 3);
 }
 .now_container {
   border: 2px solid #b59f5b;
@@ -557,7 +557,7 @@ li {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  width: calc((100% - 10%) / 3);
+  width: calc((100% - 1vw) / 3);
   height: auto;
   padding-top: 190px;
   position: relative;
@@ -583,7 +583,7 @@ li {
   background-image: url("../img/shop-item-desk3.jpg");
 }
 .product {
-  margin-left: calc(10% / 2);
+  margin-left: calc(1vw / 2);
 }
 .price_form {
   display: flex;
@@ -720,13 +720,13 @@ li {
     font-size: 18px;
   }
   .now-trend {
-    width: calc((100% - 1%) / 2);
+    width: calc((100% - 0.5vw) / 2);
   }
   .trends {
     margin-bottom: 5px;
   }
-  .trends:nth-child(2n + 1) {
-    margin-left: 0.5%;
+  .cheeses, .lemons {
+    margin-left: 0.5vw;
   }
   .content-title {
     font-size: 17px;
@@ -748,12 +748,12 @@ li {
     max-width: 1200px;
   }
   .our_products {
-    width: calc((100% - 5%) / 2);
+    width: calc((100% - 1vw) / 2);
   }
-  .product:nth-child(2n + 1) {
-    margin-left: 5%;
+  .hare {
+    margin-left: 1vw;
   }
-  .our_products:nth-child(2n + 4) {
+  .decor {
     margin-top: 20px;
   }
   .button {
@@ -907,24 +907,18 @@ li {
 }
 @media (max-width: 640px) and (orientation: landscape) {
   .now-trend {
-    width: calc((100% - 1%) / 2);
+    width: calc((100% - 1vw) / 2);
   }
   .trends {
     margin: 0;
     margin-bottom: 5px;
   }
-  .trends:nth-child(2n + 1) {
-    margin-left: 0.5%;
-  }
 }
 @media (min-width: 641px) and (max-width: 1200px) and (orientation: landscape) {
   .now-trend {
-    width: calc((100% - 0.72%) / 4);
+    width: calc((100% - 1vw) / 4);
   }
-  .trends {
-    margin-left: calc(0.72% / 3);
-  }
-  .trends:nth-child(2n + 1) {
-    margin-left: calc(0.72% / 3);
+  .cheeses, .mountains, .lemons {
+    margin-left: calc(1vw / 3);
   }
 }
